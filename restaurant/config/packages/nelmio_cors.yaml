@@ -1,12 +1,7 @@
 nelmio_cors:
     defaults:
-        allow_credentials: false
-        allow_origin: ['*']
-        allow_headers: ['*']
-        allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-        max_age: 3600
-        hosts: []
-        origin_regex: false
-        forced_allow_origin_value: null
-    paths:
-        '^/': ~
+        allow_origin: ['*'] 
+        allow_headers: ['*'] 
+        allow_methods: ['OPTIONS', 'POST', 'PUT', 'GET', 'DELETE', 'PATCH'] 
+        max_age: 3600 
+        allow_credentials: true
