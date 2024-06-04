@@ -3,5 +3,4 @@ nelmio_cors:
         allow_origin: ['*'] 
         allow_headers: ['*'] 
         allow_methods: ['OPTIONS', 'POST', 'PUT', 'GET', 'DELETE', 'PATCH'] 
-        max_age: 3600 
-        allow_credentials: true
+        max_age: 3600

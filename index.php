@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/main.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="PFR_Front/scss/main.css">
+    <link rel="stylesheet" href="PFR_Front/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <title>Restaurant Le Quai Antique</title>
 </head>
 <body>
@@ -68,8 +68,8 @@
   </footer>
 
 
-    <script src="js/script.js"></script>
-    <script type="module" src="Router/Router.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="PFR_Front/js/script.js"></script>
+    <script type="module" src="PFR_Front/Router/Router.js"></script>
+    <script src="PFR_Front/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
